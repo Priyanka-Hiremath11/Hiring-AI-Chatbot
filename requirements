@@ -1,3 +1,5 @@
 streamlit
 groq
+re
+os
 python-dotenv
