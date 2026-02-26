@@ -1,5 +1,6 @@
 streamlit
-groq
+groq==1.0.0
 re
 os
 python-dotenv
+
