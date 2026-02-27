@@ -4,8 +4,8 @@ import re
 from groq import Groq
 from dotenv import load_dotenv
 
-st.set_page_config(page_title="TalentScout:AI Hiring Assistant", page_icon="🤖")
-st.title("🤖 TalentScout:AI Hiring Assistant")
+st.set_page_config(page_title="TalentScout : AI Hiring Assistant", page_icon="🤖")
+st.title("🤖 TalentScout : AI Hiring Assistant")
 
 # ---------------- LOAD API KEY (ENV + DEPLOY SAFE) ----------------
 load_dotenv()
@@ -154,6 +154,7 @@ if st.button("🔄 Restart Interview"):
         del st.session_state[key]
 
     st.rerun()
+
 
 
 
