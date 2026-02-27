@@ -1,4 +1,4 @@
-AI Hiring Assistant (Streamlit & Groq AI)
+TalentScout : AI Hiring Assistant (Streamlit & Groq AI)
 
 Description:
 The AI Hiring Assistant is an interactive web application designed to simulate a real-world technical interview experience. Built using Streamlit for the frontend and Groq AI (Llama 3) for natural language processing, the assistant guides candidates through a structured interview process, evaluates their technical knowledge, and provides instant feedback.
