@@ -29,6 +29,9 @@ questions = [
     "What is your full name?",
     "Enter your email address:",
     "What is your highest qualification?",
+    "How many years of experience do you have?",
+    "What job role you applying for?",
+    "What is your current location?",
     "List your key skills:",
 ]
 
@@ -151,6 +154,7 @@ if st.button("🔄 Restart Interview"):
         del st.session_state[key]
 
     st.rerun()
+
 
 
 
