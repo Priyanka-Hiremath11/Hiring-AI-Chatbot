@@ -23,8 +23,9 @@ if not api_key:
 client = Groq(api_key=api_key)
 
 # ---------------- QUESTIONS ----------------
-st.write("Hello! I'm your AI Hiring Assistant. I'll ask you a few questions to understand your background and skills, then generate some technical questions based on your input. Let's get started! 🚀")
+
 questions = [
+    "Hello! I'm your AI Hiring Assistant. I'll ask you a few questions to understand your background and skills, then generate some technical questions based on your input. Let's get started! Are You Ready? 🚀"
     "What is your full name?",
     "Enter your email address:",
     "What is your highest qualification?",
@@ -150,4 +151,5 @@ if st.button("🔄 Restart Interview"):
         del st.session_state[key]
 
     st.rerun()
+
 
